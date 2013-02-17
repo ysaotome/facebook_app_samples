@@ -25,8 +25,7 @@ echo <<< _HTML_
     <li>２）ログインユーザの所属グループの一覧を取得</li>
   </ul>
   </li>
-  <li><a href="./example3.php">Facebook連携サンプルプログラム3</a>
-  </li>
+<!--  <li><a href="./example3.php">Facebook連携サンプルプログラム3</a></li> -->
 </ul>
 
 </body>
