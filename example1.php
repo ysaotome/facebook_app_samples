@@ -13,10 +13,11 @@ require './facebook-php-sdk/src/facebook.php';
 //　https://developers.facebook.com/apps/
 //AppIDとAppSecretを設定してください。
 $facebook = new Facebook(array(
-    'appId'  => 'APP ID',
-    'secret' => 'APP SECRET',
+    'appId'  => '431491296930667',
+    'secret' => 'a85ced3a0f628cf3e05a10c105534832',
 ));
-
+//このアプリを公開した人
+$yourname = '五月女雄一';
 
 //ログイン状態を取得する
 $user = $facebook->getUser();
@@ -66,6 +67,7 @@ echo <<<_HEADER_
     </head>
     <p><a href="./">&lt; &lt;サンプル一覧</a></p>
     <h1>Facebook連携サンプルプログラム１</h1>
+<h2>このアプリを公開した人：<span style="color:blue;">$yourname</span></h2>
     <p><a href="./example1.php.txt">このページのソースコード</a>(文字コード：UTF-8)</p>
     <p>出来る事</p>
     <ul>
